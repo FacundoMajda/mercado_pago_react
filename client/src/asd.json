@@ -1,0 +1,14 @@
+{
+  "title": "Banana",
+  "unit_price": 100,
+  "quantity": 12,
+  "currency_id": "ARS"
+}
+{
+    "title": "Pera",
+    "unit_price": 100,
+    "quantity": 12,
+    "currency_id": "ARS"
+  }
+,
+  

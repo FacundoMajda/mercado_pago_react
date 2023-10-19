@@ -1,0 +1,22 @@
+/* Estilo del contenedor principal de la lista de productos */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+/* Estilo de separación entre las tarjetas de producto */
+.product-list .card-product {
+  width: calc(33.33% - 3rem); /* 3 tarjetas por fila con espacio entre ellas */
+  margin-bottom: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.product-list .card-product:hover {
+  transform: translateY(-5px);
+}
